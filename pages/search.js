@@ -5,7 +5,7 @@ import Response from "../Response";
 import { useRouter } from "next/router";
 import SearchResults from "../components/SearchResults";
 
-const search = ({ results }) => {
+const Search = ({ results }) => {
   console.log(results);
 
   const router = useRouter();
@@ -24,7 +24,7 @@ const search = ({ results }) => {
   );
 };
 
-export default search;
+export default Search;
 
 export async function getServerSideProps(context) {
   const useDummyData = false;
