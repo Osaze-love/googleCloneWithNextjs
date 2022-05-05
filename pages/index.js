@@ -42,6 +42,7 @@ export default function Home() {
           src="/googleImage.png"
           height="200"
           width="370"
+          alt="bannerImage"
           className="object-cover"
         />
         <div className="flex items-center w-full bg-white-900 mt-5 rounded-full border border-gray-200 hover:shadow-lg justify-center max-w-md px-4 p-2 focus-within:shadow-lg md:max-w-xl lg:max-w-2xl">

@@ -24,6 +24,7 @@ const Header = () => {
           onClick={() => {
             router.push("/");
           }}
+          alt="HeaderImage"
           height={70}
         />
         <form className="flex flex-grow border px-6 py-2 ml-7 mr-5 border-gray-200 shadow-lg max-w-3xl items-center rounded-full">
